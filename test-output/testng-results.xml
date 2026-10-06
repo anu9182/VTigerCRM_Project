@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Configuring Report]]>
+    </line>
+    <line>
+      <![CDATA[Connected To DB]]>
+    </line>
+    <line>
+      <![CDATA[Configuration of Parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[Configuration of Parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[Configuration of Parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[Launched browser]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution skipped]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution skipped]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution Failed - Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Launched browser]]>
+    </line>
+    <line>
+      <![CDATA[Launched browser]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution skipped]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution success]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution skipped]]>
+    </line>
+    <line>
+      <![CDATA[createOrgTestTest Execution Failed - Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of Vtiger]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithIATTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithIATTestTest Execution success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of Vtiger]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhNoTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[createOrgWithPhNoTestTest Execution success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of Vtiger]]>
+    </line>
+    <line>
+      <![CDATA[close configuration of parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser]]>
+    </line>
+    <line>
+      <![CDATA[Launched browser]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[cContactWithDateTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[cContactWithDateTestTest Execution success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of Vtiger]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[cContactWithOrgTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[cContactWithOrgTestTest Execution success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of Vtiger]]>
+    </line>
+    <line>
+      <![CDATA[logged in to VTiger]]>
+    </line>
+    <line>
+      <![CDATA[contactTestTest Execution started]]>
+    </line>
+    <line>
+      <![CDATA[contactTestTest Execution success]]>
+    </line>
+    <line>
+      <![CDATA[Logged out of Vtiger]]>
+    </line>
+    <line>
+      <![CDATA[close configuration of parallel Execution]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser]]>
+    </line>
+    <line>
+      <![CDATA[DisConnected with DB]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-06T10:41:37 IST" name="Suite" finished-at="2026-10-06T10:45:03 IST" duration-ms="206115">
+    <groups>
+      <group name="reg">
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.cContactWithDateTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" name="cContactWithDateTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.cContactWithOrgTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" name="cContactWithOrgTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithIATTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" name="createOrgWithIATTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithPhNoTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" name="createOrgWithPhNoTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.cContactWithDateTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@431cd9b2]" name="cContactWithDateTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.cContactWithOrgTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@431cd9b2]" name="cContactWithOrgTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithIATTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@65f8f5ae]" name="createOrgWithIATTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithPhNoTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@65f8f5ae]" name="createOrgWithPhNoTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.cContactWithDateTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@790da477]" name="cContactWithDateTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.cContactWithOrgTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@790da477]" name="cContactWithOrgTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithIATTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@5b7a7f33]" name="createOrgWithIATTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithPhNoTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@5b7a7f33]" name="createOrgWithPhNoTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+      </group> <!-- reg -->
+      <group name="smoke">
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.contactTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" name="contactTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" name="createOrgTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.contactTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@431cd9b2]" name="contactTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@65f8f5ae]" name="createOrgTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+        <method signature="CreateContactswithOrgNameAndSuppDateTest.contactTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@790da477]" name="contactTest" class="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
+        <method signature="CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@5b7a7f33]" name="createOrgTest" class="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-10-06T10:41:37 IST" name="Test_chrome" finished-at="2026-10-06T10:45:03 IST" duration-ms="206115">
+      <class name="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest">
+        <test-method is-config="true" signature="configparallelExe()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:41:37 IST" name="configparallelExe" finished-at="2026-10-06T10:41:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Configuration of Parallel Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configparallelExe -->
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:41:37 IST" name="launchTheBrowser" finished-at="2026-10-06T10:42:19 IST" duration-ms="42736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launched browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:42:19 IST" name="login" finished-at="2026-10-06T10:42:21 IST" duration-ms="1492" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in to VTiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrgTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:42:21 IST" name="createOrgTest" finished-at="2026-10-06T10:42:39 IST" duration-ms="18564" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createOrgTestTest Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:42:39 IST" name="logout" finished-at="2026-10-06T10:42:44 IST" duration-ms="4995" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of Vtiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:42:44 IST" name="login" finished-at="2026-10-06T10:42:48 IST" duration-ms="3414" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in to VTiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrgWithIATTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:42:48 IST" name="createOrgWithIATTest" finished-at="2026-10-06T10:42:59 IST" duration-ms="11537" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithIATTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithIATTestTest Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithIATTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:42:59 IST" name="logout" finished-at="2026-10-06T10:43:03 IST" duration-ms="3434" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of Vtiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:43:03 IST" name="login" finished-at="2026-10-06T10:43:05 IST" duration-ms="2680" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in to VTiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createOrgWithPhNoTest()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:43:05 IST" name="createOrgWithPhNoTest" finished-at="2026-10-06T10:43:18 IST" duration-ms="12190" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[createOrgWithPhNoTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[createOrgWithPhNoTestTest Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhNoTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:43:18 IST" name="logout" finished-at="2026-10-06T10:43:22 IST" duration-ms="4090" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of Vtiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="CloseParallelExe()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:43:22 IST" name="CloseParallelExe" finished-at="2026-10-06T10:43:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close configuration of parallel Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseParallelExe -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@231f98ef]" started-at="2026-10-06T10:43:22 IST" name="quitTheBrowser" finished-at="2026-10-06T10:43:22 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest -->
+      <class name="ContactTest.CreateContactswithOrgNameAndSuppDateTest">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:43:22 IST" name="launchTheBrowser" finished-at="2026-10-06T10:43:24 IST" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launched browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:43:24 IST" name="login" finished-at="2026-10-06T10:43:25 IST" duration-ms="1041" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in to VTiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="cContactWithDateTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:43:25 IST" name="cContactWithDateTest" finished-at="2026-10-06T10:43:44 IST" duration-ms="18741" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[cContactWithDateTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[cContactWithDateTestTest Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cContactWithDateTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:43:44 IST" name="logout" finished-at="2026-10-06T10:43:48 IST" duration-ms="4716" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of Vtiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:43:48 IST" name="login" finished-at="2026-10-06T10:43:52 IST" duration-ms="3557" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in to VTiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="cContactWithOrgTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:43:52 IST" name="cContactWithOrgTest" finished-at="2026-10-06T10:44:29 IST" duration-ms="37004" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[cContactWithOrgTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[cContactWithOrgTestTest Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cContactWithOrgTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:44:29 IST" name="logout" finished-at="2026-10-06T10:44:34 IST" duration-ms="5635" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of Vtiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:44:34 IST" name="login" finished-at="2026-10-06T10:44:35 IST" duration-ms="906" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logged in to VTiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="contactTest()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:44:35 IST" name="contactTest" finished-at="2026-10-06T10:44:56 IST" duration-ms="20579" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[contactTestTest Execution started]]>
+            </line>
+            <line>
+              <![CDATA[contactTestTest Execution success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- contactTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:44:56 IST" name="logout" finished-at="2026-10-06T10:45:02 IST" duration-ms="6202" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out of Vtiger]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="CloseParallelExe()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:45:02 IST" name="CloseParallelExe" finished-at="2026-10-06T10:45:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close configuration of parallel Execution]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- CloseParallelExe -->
+        <test-method is-config="true" signature="quitTheBrowser()[pri:0, instance:ContactTest.CreateContactswithOrgNameAndSuppDateTest@17fc391b]" started-at="2026-10-06T10:45:02 IST" name="quitTheBrowser" finished-at="2026-10-06T10:45:03 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quitTheBrowser -->
+      </class> <!-- ContactTest.CreateContactswithOrgNameAndSuppDateTest -->
+    </test> <!-- Test_chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
