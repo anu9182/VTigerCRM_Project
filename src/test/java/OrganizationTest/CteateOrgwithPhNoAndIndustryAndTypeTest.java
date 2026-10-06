@@ -22,7 +22,9 @@ import POMUtilities.OrgInfoPage;
 import POMUtilities.OrgPage;
 import UtilityClassObj.UtilitiesClassObject;
 
-
+//<<<<<<< HEAD=======
+////Sam Workspace
+//>>>>>>> branch 'master' of https://github.com/anu9182/VTigerCRM_Project.git
 //OrganizationTest
 @Listeners(ListenersUtility.ListenersImp.class)
 public class CteateOrgwithPhNoAndIndustryAndTypeTest extends Baseclass {
