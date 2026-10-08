@@ -3,19 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest">
+      <class name="ContactTest.CreateContactswithOrgNameAndSuppDateTest">
         <methods>
           <include name="configparallelExe"/>
-          <include name="createOrgTest"/>
           <include name="connectToDB"/>
           <include name="quitTheBrowser"/>
           <include name="logout"/>
           <include name="launchTheBrowser"/>
           <include name="DisConnectToDB"/>
+          <include name="cContactWithOrgTest"/>
           <include name="login"/>
           <include name="CloseParallelExe"/>
+          <include name="cContactWithDateTest"/>
+          <include name="contactTest"/>
         </methods>
-      </class> <!-- OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest -->
+      </class> <!-- ContactTest.CreateContactswithOrgNameAndSuppDateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

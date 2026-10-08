@@ -29,7 +29,7 @@ public class Baseclass {
 	public WebDriverUtility wutil = new WebDriverUtility();
 	public PropertyFileUtility putil = new PropertyFileUtility();
 	public WebDriver driver = null;
-
+	// github lo undi e step undi comment cheyaledu
 //	public static WebDriver sdriver = null;
 
 	@BeforeSuite(alwaysRun = true)
@@ -43,19 +43,19 @@ public class Baseclass {
 		Reporter.log("Configuration of Parallel Execution", true);
 	}
 
-	@Parameters("browser")
+     @Parameters("browser")
 	@BeforeClass(alwaysRun = true)
 	public void launchTheBrowser(String browser) throws IOException {
 
-//		String browser = putil.fetchDataFromPropFile("browser");
-		if (browser.equals("chrome"))
+		//String browser = putil.fetchDataFromPropFile("browser");
+        if (browser.equals("chrome"))
 			driver = new ChromeDriver();
-		else if (browser.equals("edge"))
+         else if (browser.equals("edge"))
 			driver = new EdgeDriver();
-		else if (browser.equals("fireFox"))
+		 else if (browser.equals("fireFox"))
 			driver = new FirefoxDriver();
-		else
-			driver = new ChromeDriver();
+             else
+             driver = new ChromeDriver();
 
 //		sdriver = driver;
 		UtilitiesClassObject.setDriver(driver);
@@ -64,7 +64,8 @@ public class Baseclass {
 
 	@BeforeMethod(alwaysRun = true)
 	public void login() throws IOException {
-
+		// doubt
+		// String url = System.getProperty("url", putil.fetchDataFromPropFile("url"));
 		String url = putil.fetchDataFromPropFile("url");
 		String username = putil.fetchDataFromPropFile("username");
 		String password = putil.fetchDataFromPropFile("password");

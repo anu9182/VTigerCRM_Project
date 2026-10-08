@@ -37,6 +37,9 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 		// fetch the random number
 		JavaUtility jutil = new JavaUtility();
 		int rnum = jutil.generateRandomNumber();
+		//doubt
+		//UtilityObjectClass.test.get().log(Status.INFO, "Fetched Data from Excel File");
+
 		UtilitiesClassObject.getTest().log(Status.INFO, "Fetched random number");
 
 		// fetch the data from excel file
@@ -55,17 +58,17 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 
 		// identify contact tab and click on it
 		homepp.getConTab();
-		UtilitiesClassObject.getTest().log(Status.INFO, "Identifying contact tab and click on it");
+		UtilitiesClassObject.getTest().log(Status.INFO, "clicked on contact tab");
 		// Identify contact plus icon and click on it
 		ContactPage conpp = new ContactPage(driver);
 		conpp.getConplusIcon();
-		UtilitiesClassObject.getTest().log(Status.INFO, "Indentify contact plus icon and click on it");
+		UtilitiesClassObject.getTest().log(Status.INFO, "clicked on contact plus icon");
 
 		// doubt header
 		// validate for create new contact header element
 		CreateContactPage createconpp = new CreateContactPage(driver);
 		WebElement cncHeader = createconpp.getCreateconHeader();
-		UtilitiesClassObject.getTest().log(Status.INFO, "validate for create new contact header element");
+		UtilitiesClassObject.getTest().log(Status.INFO, "validating new contact header");
 
 		// using wait statement
 		String timeouts = putil.fetchDataFromPropFile("timeouts");
@@ -74,16 +77,16 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 
 		// Identify Lastname TF and enter lastname in it
 		createconpp.getLastnameTF(lastname);
-		UtilitiesClassObject.getTest().log(Status.INFO, "Identify Lastname TF and enter lastname in it");
+		UtilitiesClassObject.getTest().log(Status.INFO, "enter the last name");
 		// Identify save btn and click on it
 		createconpp.getSaveBtn();
-		UtilitiesClassObject.getTest().log(Status.INFO, "Identify save btn and click on it");
+		UtilitiesClassObject.getTest().log(Status.INFO, "clicked on save btn");
 
 		// validating the lastname using hard Assert
 		ContactInfoPage coninfopp = new ContactInfoPage(driver);
 		String verifylastname = coninfopp.getVarifyLastname();
 		Assert.assertEquals(verifylastname, lastname, "validating the contact lastname");
-		UtilitiesClassObject.getTest().log(Status.PASS, "Identify save btn and click on it");
+		UtilitiesClassObject.getTest().log(Status.PASS, "validating the contact lastname");
 
 		// Identify contact tab and click on it
 		homepp.getConTab();
@@ -97,8 +100,8 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 		UtilitiesClassObject.getTest().log(Status.INFO, " Deleted contact");
 
 		exutil.closeTheExcelFile();
-		soft.assertAll();
 		UtilitiesClassObject.getTest().log(Status.INFO, "Closed Excel File and handled soft assert");
+		soft.assertAll();
 	}
 
 	@Test(groups = "reg", retryAnalyzer = ListenersUtility.RetryAnalyser.class)
@@ -131,7 +134,7 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 		// Identify the + icon and click on it
 		OrgPage orgpp = new OrgPage(driver);
 		orgpp.getOrgplusIcon();
-		UtilitiesClassObject.getTest().log(Status.INFO, "Clicked on contact plus icon");
+		UtilitiesClassObject.getTest().log(Status.INFO, "Clicked on org plus icon");
 
 		// Identify org name tf and pass the value on it
 		CreateOrgPage createorgpp = new CreateOrgPage(driver);
@@ -143,8 +146,8 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 
 		// Identify org info header and validate orgname using hard Assert
 		OrgInfoPage orginfopp = new OrgInfoPage(driver);
-		String VerifyOrgname = orginfopp.getVerifyOrgName();
-		Assert.assertEquals(VerifyOrgname, orgname, "validating the orgname in org info page");
+		String VerifyOrgn = orginfopp.getVerifyOrgName();
+		Assert.assertEquals(VerifyOrgn, orgname, "validating the orgname in org info page");
 		UtilitiesClassObject.getTest().log(Status.PASS, " validate the org name");
 
 		// identify contact tab and click on it
