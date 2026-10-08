@@ -67,7 +67,7 @@ public class ListenersImp implements ISuiteListener, ITestListener {
 		UtilitiesClassObject.getTest().log(Status.FAIL, testname + timestamp + " Test Execution failed");
 		TakesScreenshot ts = (TakesScreenshot) UtilitiesClassObject.getDriver();
 		String src = ts.getScreenshotAs(OutputType.BASE64);
-		test.addScreenCaptureFromBase64String(src, testname + timestamp + "screenshot.ong");
+		test.addScreenCaptureFromBase64String(src, testname + timestamp + "screenshot.png");
 
 	}
 
@@ -76,16 +76,14 @@ public class ListenersImp implements ISuiteListener, ITestListener {
 		String testname = result.getMethod().getMethodName();
 		String timestamp = new Date().toString().replace(":", "_").replace(" ", "_");
 		Reporter.log(testname + "Test Execution skipped", true);
-		UtilitiesClassObject.getTest().log(Status.SKIP, testname + timestamp + "Test Execution file");
+		UtilitiesClassObject.getTest().log(Status.SKIP, testname + timestamp + "Test Execution skiped");
 	}
 
 	@Override
 	public void onFinish(ISuite suite) {
 		Reporter.log("Report Backup", true);
 		report.flush();
-
-//		UtilitiesClassObject.getTest().log(Status.INFO, "Test Execution Finisged");
-		report.flush();
+        UtilitiesClassObject.getTest().log(Status.INFO, "Test Execution Finished");
 
 	}
 }

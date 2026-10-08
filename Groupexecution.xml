@@ -6,15 +6,17 @@
 			<include name="smoke"></include>
 		</run>
 	</groups>
-  <test  name="Test1">
-    <classes>
-      
-      <class name="ContactTest.CreateContactswithOrgNameAndSuppDateTest"/>
-    </classes>
-  </test> <!-- Test1 -->
-  <test  name="Test2">
-    <classes>
-      <class name="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest"/>
-     </classes>
-  </test> <!-- Test2 -->
-</suite> <!-- Suite -->
+	<test name="Test1">
+		<classes>
+			<class name="ContactTest.CreateContactswithOrgNameAndSuppDateTest" />
+		</classes>
+	</test> <!--
+	Test1 -->
+	<test name="Test2">
+		<classes>
+			<class	name="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest" />
+		</classes>
+	</test> <!--
+	Test2 -->
+</suite> <!--
+Suite -->

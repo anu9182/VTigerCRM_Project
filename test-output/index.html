@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-skipped">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,17 +50,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Anusha\Desktop\JARFILE\VTigerCRM\CBTtestng.xml</span>
+                    <span>C:\Users\Anusha\Desktop\JARFILE\VTigerCRM\Groupexecution.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>2 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,46 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,  6 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ContactTest.CreateContactswithOrgNameAndSuppDateTest" class="method navigator-link" hash-for-method="cContactWithDateTest">cContactWithDateTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ContactTest.CreateContactswithOrgNameAndSuppDateTest" class="method navigator-link" hash-for-method="cContactWithOrgTest">cContactWithOrgTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="ContactTest.CreateContactswithOrgNameAndSuppDateTest" class="method navigator-link" hash-for-method="contactTest">contactTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest" class="method navigator-link" hash-for-method="createOrgTest">createOrgTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest" class="method navigator-link" hash-for-method="createOrgWithIATTest">createOrgWithIATTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest" class="method navigator-link" hash-for-method="createOrgWithPhNoTest">createOrgWithPhNoTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -143,161 +118,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-skipped">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">ContactTest.CreateContactswithOrgNameAndSuppDateTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="cContactWithDateTest">
-                  </a> <!-- cContactWithDateTest -->
-                  <span class="method-name">cContactWithDateTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;driver&quot; is null
-	at GenericUtilities.WebDriverUtility.maximizeTheWindow(WebDriverUtility.java:68)
-	at BaseClassUtility.Baseclass.login(Baseclass.java:75)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="cContactWithOrgTest">
-                  </a> <!-- cContactWithOrgTest -->
-                  <span class="method-name">cContactWithOrgTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;driver&quot; is null
-	at GenericUtilities.WebDriverUtility.maximizeTheWindow(WebDriverUtility.java:68)
-	at BaseClassUtility.Baseclass.login(Baseclass.java:75)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="contactTest">
                   </a> <!-- contactTest -->
                   <span class="method-name">contactTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;driver&quot; is null
-	at GenericUtilities.WebDriverUtility.maximizeTheWindow(WebDriverUtility.java:68)
-	at BaseClassUtility.Baseclass.login(Baseclass.java:75)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="createOrgTest">
-                  </a> <!-- createOrgTest -->
-                  <span class="method-name">createOrgTest</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;driver&quot; is null
-	at GenericUtilities.WebDriverUtility.maximizeTheWindow(WebDriverUtility.java:68)
-	at BaseClassUtility.Baseclass.login(Baseclass.java:75)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 21 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createOrgWithIATTest">
-                  </a> <!-- createOrgWithIATTest -->
-                  <span class="method-name">createOrgWithIATTest</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Driver must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:61)
-	at POMUtilities.HomePage.logout(HomePage.java:51)
-	at BaseClassUtility.Baseclass.logout(Baseclass.java:91)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createOrgWithPhNoTest">
-                  </a> <!-- createOrgWithPhNoTest -->
-                  <span class="method-name">createOrgWithPhNoTest</span>
-                  <div class="stack-trace">java.lang.IllegalArgumentException: Driver must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:68)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
-	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:61)
-	at POMUtilities.HomePage.logout(HomePage.java:51)
-	at BaseClassUtility.Baseclass.logout(Baseclass.java:91)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Anusha\Desktop\JARFILE\VTigerCRM\CBTtestng.xml</span>
+            <span class="header-content">C:\Users\Anusha\Desktop\JARFILE\VTigerCRM\Groupexecution.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test_chrome&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;smoke&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;smoke&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest&quot;/&gt;
       &lt;class name=&quot;ContactTest.CreateContactswithOrgNameAndSuppDateTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_chrome --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test_edge&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Test2&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest&quot;/&gt;
-      &lt;class name=&quot;ContactTest.CreateContactswithOrgNameAndSuppDateTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_edge --&gt;
-  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Test_firefox&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest&quot;/&gt;
-      &lt;class name=&quot;ContactTest.CreateContactswithOrgNameAndSuppDateTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test_firefox --&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -309,13 +174,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test_chrome (2 classes)</span>
+                <span class="test-name">Test1 (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Test_edge (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Test_firefox (2 classes)</span>
+                <span class="test-name">Test2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -326,34 +188,10 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">reg</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">cContactWithDateTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">cContactWithOrgTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">createOrgWithIATTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">createOrgWithPhNoTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
-            <div class="test-group">
               <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">contactTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">createOrgTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -373,36 +211,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'contactTest')
 data.setCell(0, 2, 'ContactTest.CreateContactswithOrgNameAndSuppDateTest')
-data.setCell(0, 3, 1);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'createOrgWithPhNoTest')
-data.setCell(1, 2, 'OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest')
-data.setCell(1, 3, 0);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'cContactWithOrgTest')
-data.setCell(2, 2, 'ContactTest.CreateContactswithOrgNameAndSuppDateTest')
-data.setCell(2, 3, 0);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'createOrgTest')
-data.setCell(3, 2, 'OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest')
-data.setCell(3, 3, 0);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'createOrgWithIATTest')
-data.setCell(4, 2, 'OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest')
-data.setCell(4, 3, 0);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'cContactWithDateTest')
-data.setCell(5, 2, 'ContactTest.CreateContactswithOrgNameAndSuppDateTest')
-data.setCell(5, 3, 0);
+data.setCell(0, 3, 20184);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 371 ms</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -414,68 +232,34 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">createOrgWithPhNoTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">createOrgWithPhNoTestTest Execution skipped</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">cContactWithOrgTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">cContactWithOrgTestTest Execution skipped</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">contactTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">contactTestTest Execution skipped</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createOrgTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">createOrgTestTest Execution skipped</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createOrgWithIATTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">createOrgWithIATTestTest Execution skipped</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">cContactWithDateTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">cContactWithDateTestTest Execution skipped</span>
+                <span class="reporter-method-output">contactTestTest Execution started</span>
+                <span class="reporter-method-output">contactTestTest Execution success</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">9 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createOrgWithPhNoTest</span>
+                <br/>
+                <span class="ignored-method-name">createOrgWithIATTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">ContactTest.CreateContactswithOrgNameAndSuppDateTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">DisConnectToDB</span>
+                <span class="ignored-method-name">cContactWithOrgTest</span>
                 <br/>
-                <span class="ignored-method-name">connectToDB</span>
-                <br/>
-                <span class="ignored-method-name">configparallelExe</span>
-                <br/>
-                <span class="ignored-method-name">DisConnectToDB</span>
-                <br/>
-                <span class="ignored-method-name">DisConnectToDB</span>
-                <br/>
-                <span class="ignored-method-name">connectToDB</span>
-                <br/>
-                <span class="ignored-method-name">configparallelExe</span>
-                <br/>
-                <span class="ignored-method-name">configparallelExe</span>
-                <br/>
-                <span class="ignored-method-name">connectToDB</span>
+                <span class="ignored-method-name">cContactWithDateTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -492,151 +276,93 @@ return data;
                 <span class="method-name">connectToDB</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ContactTest.CreateContactswithOrgNameAndSuppDateTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">configparallelExe</span>
-                <span class="method-start">1000 ms</span>
+                <span class="method-start">641 ms</span>
               </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">configparallelExe</span>
-                <span class="method-start">1001 ms</span>
+                <span class="method-start">642 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="configuration-test before">
-                <span class="method-name">configparallelExe</span>
-                <span class="method-start">1002 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">launchTheBrowser(chrome)</span>
-                <span class="method-start">1043 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">launchTheBrowser(edge)</span>
-                <span class="method-start">1043 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-class before">
-                <span class="method-name">launchTheBrowser(firefox)</span>
-                <span class="method-start">1043 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login</span>
-                <span class="method-start">1074 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login</span>
-                <span class="method-start">1074 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logout</span>
-                <span class="method-start">1146 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login</span>
-                <span class="method-start">1244 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logout</span>
-                <span class="method-start">1260 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login</span>
-                <span class="method-start">1267 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logout</span>
-                <span class="method-start">1281 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">CloseParallelExe</span>
-                <span class="method-start">1286 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">quitTheBrowser</span>
-                <span class="method-start">1288 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ContactTest.CreateContactswithOrgNameAndSuppDateTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">launchTheBrowser(chrome)</span>
-                <span class="method-start">1292 ms</span>
+                <span class="method-name">launchTheBrowser</span>
+                <span class="method-start">672 ms</span>
               </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">launchTheBrowser</span>
+                <span class="method-start">672 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ContactTest.CreateContactswithOrgNameAndSuppDateTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">login</span>
-                <span class="method-start">1295 ms</span>
+                <span class="method-start">3943 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logout</span>
-                <span class="method-start">1312 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login</span>
-                <span class="method-start">1320 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logout</span>
-                <span class="method-start">1331 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login</span>
-                <span class="method-start">1337 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">logout</span>
-                <span class="method-start">1350 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">CloseParallelExe</span>
-                <span class="method-start">1354 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-class after">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">quitTheBrowser</span>
-                <span class="method-start">1355 ms</span>
-              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">login</span>
-                <span class="method-start">8172 ms</span>
+                <span class="method-start">7547 ms</span>
               </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ContactTest.CreateContactswithOrgNameAndSuppDateTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">contactTest</span>
+                <span class="method-start">8049 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login</span>
-                <span class="method-start">33425 ms</span>
+                <span class="method-start">13279 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseParallelExe</span>
+                <span class="method-start">28138 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitTheBrowser</span>
+                <span class="method-start">28140 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ContactTest.CreateContactswithOrgNameAndSuppDateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">logout</span>
+                <span class="method-start">28238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">CloseParallelExe</span>
+                <span class="method-start">36323 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">quitTheBrowser</span>
+                <span class="method-start">36323 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">DisConnectToDB</span>
-                <span class="method-start">54888 ms</span>
+                <span class="method-start">36577 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

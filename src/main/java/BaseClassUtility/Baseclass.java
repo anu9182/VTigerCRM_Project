@@ -30,7 +30,7 @@ public class Baseclass {
 	public PropertyFileUtility putil = new PropertyFileUtility();
 	public WebDriver driver = null;
 	// github lo undi e step undi comment cheyaledu
-//	public static WebDriver sdriver = null;
+	public static WebDriver sdriver = null;
 
 	@BeforeSuite(alwaysRun = true)
 	public void connectToDB() throws SQLException {
@@ -43,11 +43,11 @@ public class Baseclass {
 		Reporter.log("Configuration of Parallel Execution", true);
 	}
 
-     @Parameters("browser")
+//     @Parameters("browser")
 	@BeforeClass(alwaysRun = true)
-	public void launchTheBrowser(String browser) throws IOException {
+	public void launchTheBrowser() throws IOException {
 
-		//String browser = putil.fetchDataFromPropFile("browser");
+		String browser = putil.fetchDataFromPropFile("browser");
         if (browser.equals("chrome"))
 			driver = new ChromeDriver();
          else if (browser.equals("edge"))
@@ -57,7 +57,7 @@ public class Baseclass {
              else
              driver = new ChromeDriver();
 
-//		sdriver = driver;
+		sdriver = driver;
 		UtilitiesClassObject.setDriver(driver);
 		Reporter.log("Launched browser", true);
 	}

@@ -139,7 +139,7 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 		// Identify org name tf and pass the value on it
 		CreateOrgPage createorgpp = new CreateOrgPage(driver);
 		createorgpp.getOrgnameTF(orgname);
-		UtilitiesClassObject.getTest().log(Status.INFO, " pass the org value ");
+		UtilitiesClassObject.getTest().log(Status.INFO, " enter the org value ");
 		// Identify the save btn and click on it
 		createorgpp.getSaveBtn();
 		UtilitiesClassObject.getTest().log(Status.INFO, " Click on save btn");
@@ -194,7 +194,7 @@ public class CreateContactswithOrgNameAndSuppDateTest extends Baseclass {
 
 		// Identify save btn and click on it
 		createconpp.getSaveBtn();
-		UtilitiesClassObject.getTest().log(Status.INFO, "click on save btn");
+		UtilitiesClassObject.getTest().log(Status.INFO, "clicked on save btn");
 
 		// validate lastname using hard Assert
 		ContactInfoPage coninfopp = new ContactInfoPage(driver);
