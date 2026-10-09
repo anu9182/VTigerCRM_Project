@@ -26,7 +26,6 @@ import UtilityClassObj.UtilitiesClassObject;
 ////Sam Workspace
 //>>>>>>> branch 'master' of https://github.com/anu9182/VTigerCRM_Project.git
 //OrganizationTest
-@Listeners(ListenersUtility.ListenersImp.class)
 public class CteateOrgwithPhNoAndIndustryAndTypeTest extends Baseclass {
 
 	@Test(groups = "smoke", retryAnalyzer = ListenersUtility.RetryAnalyser.class)
@@ -64,7 +63,7 @@ public class CteateOrgwithPhNoAndIndustryAndTypeTest extends Baseclass {
 		CreateOrgPage createorgpp = new CreateOrgPage(driver);
 		createorgpp.getOrgnameTF(orgname);
 		UtilitiesClassObject.getTest().log(Status.INFO, "pass the org name");
-
+        
 		// Identify the save btn and click on it
 		createorgpp.getSaveBtn();
 		UtilitiesClassObject.getTest().log(Status.INFO, "click on save btn");

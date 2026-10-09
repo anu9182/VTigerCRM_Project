@@ -25,7 +25,6 @@ import POMUtilities.OrgInfoPage;
 import POMUtilities.OrgPage;
 import UtilityClassObj.UtilitiesClassObject;
 
-@Listeners(ListenersUtility.ListenersImp.class)
 //JOHN
 //CreateContact
 

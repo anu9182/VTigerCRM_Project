@@ -37,17 +37,17 @@ public class Baseclass {
 		dutil.getDatabaseConnection();
 		Reporter.log("Connected To DB", true);
 	}
-
+   
 	@BeforeTest(alwaysRun = true)
 	public void configparallelExe() {
 		Reporter.log("Configuration of Parallel Execution", true);
 	}
 
-//     @Parameters("browser")
+    @Parameters("browser")
 	@BeforeClass(alwaysRun = true)
-	public void launchTheBrowser() throws IOException {
+	public void launchTheBrowser(String browser) throws IOException {
 
-		String browser = putil.fetchDataFromPropFile("browser");
+		//String browser = putil.fetchDataFromPropFile("browser");
         if (browser.equals("chrome"))
 			driver = new ChromeDriver();
          else if (browser.equals("edge"))

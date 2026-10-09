@@ -55,18 +55,76 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/5</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 08 10:20:03 IST 2026</td>
+<td>Started on:</td><td>Fri Oct 09 10:24:44 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>134 seconds (134091 ms)</td>
+<tr><td>Total time:</td><td>103 seconds (103346 ms)</td>
 </tr><tr>
-<td>Included groups:</td><td></td>
+<td>Included groups:</td><td>smoke </td>
 </tr><tr>
 <td>Excluded groups:</td><td></td>
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-1741997197" onClick='toggleBox("Output-1741997197", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1741997197" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1741997197">
+createOrgTestTest Execution started<br/>
+createOrgTestTest Execution Failed - Screenshot<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1741997197", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1741997197'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>6</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@31ea9581</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,83 +134,272 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithIATTest()'><b>createOrgWithIATTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
-<a href="#Output-906397479" onClick='toggleBox("Output-906397479", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-906397479" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-906397479">
-createOrgWithIATTestTest Execution started<br/>
-createOrgWithIATTestTest Execution success<br/>
-</div>
-</td>
-<td></td>
-<td>11</td>
-<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@268f106e</td></tr>
-<tr>
-<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
-<a href="#Output-1447678234" onClick='toggleBox("Output-1447678234", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1447678234" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1447678234">
-createOrgTestTest Execution started<br/>
-createOrgTestTest Execution success<br/>
-</div>
-</td>
-<td></td>
-<td>10</td>
-<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@268f106e</td></tr>
-<tr>
 <td title='ContactTest.CreateContactswithOrgNameAndSuppDateTest.contactTest()'><b>contactTest</b><br>Test class: ContactTest.CreateContactswithOrgNameAndSuppDateTest<br/>
-<a href="#Output-936810913" onClick='toggleBox("Output-936810913", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1745241742" onClick='toggleBox("Output-1745241742", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-936810913" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-936810913">
+<a href="#Output-1745241742" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1745241742">
 contactTestTest Execution started<br/>
 contactTestTest Execution success<br/>
 </div>
 </td>
 <td></td>
-<td>17</td>
-<td>ContactTest.CreateContactswithOrgNameAndSuppDateTest@7c37508a</td></tr>
+<td>20</td>
+<td>ContactTest.CreateContactswithOrgNameAndSuppDateTest@4082ba93</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithPhNoTest()'><b>createOrgWithPhNoTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
-<a href="#Output-2003979454" onClick='toggleBox("Output-2003979454", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-1714961449" onClick='toggleBox("Output-1714961449", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-2003979454" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2003979454">
-createOrgWithPhNoTestTest Execution started<br/>
-createOrgWithPhNoTestTest Execution success<br/>
+<a href="#Output-1714961449" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1714961449">
+createOrgTestTest Execution started<br/>
+createOrgTestTest Execution skipped<br/>
 </div>
 </td>
-<td></td>
-<td>11</td>
-<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@268f106e</td></tr>
+<td><div><pre>java.lang.AssertionError: null
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1714961449", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1714961449'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>6</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@31ea9581</td></tr>
 <tr>
-<td title='ContactTest.CreateContactswithOrgNameAndSuppDateTest.cContactWithDateTest()'><b>cContactWithDateTest</b><br>Test class: ContactTest.CreateContactswithOrgNameAndSuppDateTest<br/>
-<a href="#Output-1427892726" onClick='toggleBox("Output-1427892726", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-369838089" onClick='toggleBox("Output-369838089", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1427892726" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1427892726">
-cContactWithDateTestTest Execution started<br/>
-cContactWithDateTestTest Execution success<br/>
+<a href="#Output-369838089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-369838089">
+createOrgTestTest Execution started<br/>
+createOrgTestTest Execution skipped<br/>
 </div>
 </td>
-<td></td>
-<td>17</td>
-<td>ContactTest.CreateContactswithOrgNameAndSuppDateTest@7c37508a</td></tr>
+<td><div><pre>java.lang.AssertionError: null
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace369838089", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace369838089'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>6</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@31ea9581</td></tr>
 <tr>
-<td title='ContactTest.CreateContactswithOrgNameAndSuppDateTest.cContactWithOrgTest()'><b>cContactWithOrgTest</b><br>Test class: ContactTest.CreateContactswithOrgNameAndSuppDateTest<br/>
-<a href="#Output-57986233" onClick='toggleBox("Output-57986233", this, "Show output", "Hide output");'>Show output</a>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-123721308" onClick='toggleBox("Output-123721308", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-57986233" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-57986233">
-cContactWithOrgTestTest Execution started<br/>
-cContactWithOrgTestTest Execution success<br/>
+<a href="#Output-123721308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-123721308">
+createOrgTestTest Execution started<br/>
+createOrgTestTest Execution skipped<br/>
 </div>
 </td>
-<td></td>
-<td>34</td>
-<td>ContactTest.CreateContactswithOrgNameAndSuppDateTest@7c37508a</td></tr>
+<td><div><pre>java.lang.AssertionError: null
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace123721308", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace123721308'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>6</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@31ea9581</td></tr>
+<tr>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-1142931081" onClick='toggleBox("Output-1142931081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1142931081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1142931081">
+createOrgTestTest Execution started<br/>
+createOrgTestTest Execution skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1142931081", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1142931081'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>7</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@31ea9581</td></tr>
+<tr>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-1958242673" onClick='toggleBox("Output-1958242673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1958242673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1958242673">
+createOrgTestTest Execution started<br/>
+createOrgTestTest Execution skipped<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: null
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1958242673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1958242673'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.fail(Assert.java:116)
+	at OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest(CteateOrgwithPhNoAndIndustryAndTypeTest.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>6</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@31ea9581</td></tr>
 </table><p>
 </body>
 </html>

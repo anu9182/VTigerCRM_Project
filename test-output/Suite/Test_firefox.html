@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test_firefox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 08 09:58:24 IST 2026</td>
+<td>Started on:</td><td>Fri Oct 09 10:30:57 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (129 ms)</td>
+<tr><td>Total time:</td><td>339 seconds (339719 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,48 +76,83 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.login()'><b>login</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;driver&quot; is null
-	at GenericUtilities.WebDriverUtility.maximizeTheWindow(WebDriverUtility.java:68)
-	at BaseClassUtility.Baseclass.login(Baseclass.java:75)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace885263721", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace885263721'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;driver&quot; is null
-	at GenericUtilities.WebDriverUtility.maximizeTheWindow(WebDriverUtility.java:68)
-	at BaseClassUtility.Baseclass.login(Baseclass.java:75)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:840)
-</pre></div></td>
-<td>0</td>
-<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@5b7a7f33</td></tr>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithIATTest()'><b>createOrgWithIATTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-1178188664" onClick='toggleBox("Output-1178188664", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1178188664" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1178188664">
+createOrgWithIATTestTest Execution started<br/>
+createOrgWithIATTestTest Execution success<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@55cb6996</td></tr>
+<tr>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgWithPhNoTest()'><b>createOrgWithPhNoTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-461125085" onClick='toggleBox("Output-461125085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-461125085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-461125085">
+createOrgWithPhNoTestTest Execution started<br/>
+createOrgWithPhNoTestTest Execution success<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@55cb6996</td></tr>
+<tr>
+<td title='ContactTest.CreateContactswithOrgNameAndSuppDateTest.cContactWithOrgTest()'><b>cContactWithOrgTest</b><br>Test class: ContactTest.CreateContactswithOrgNameAndSuppDateTest<br/>
+<a href="#Output-1385340214" onClick='toggleBox("Output-1385340214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1385340214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1385340214">
+cContactWithOrgTestTest Execution started<br/>
+cContactWithOrgTestTest Execution success<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>ContactTest.CreateContactswithOrgNameAndSuppDateTest@1807e3f6</td></tr>
+<tr>
+<td title='OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest.createOrgTest()'><b>createOrgTest</b><br>Test class: OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest<br/>
+<a href="#Output-1509144042" onClick='toggleBox("Output-1509144042", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1509144042" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1509144042">
+createOrgTestTest Execution started<br/>
+createOrgTestTest Execution success<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>OrganizationTest.CteateOrgwithPhNoAndIndustryAndTypeTest@55cb6996</td></tr>
+<tr>
+<td title='ContactTest.CreateContactswithOrgNameAndSuppDateTest.cContactWithDateTest()'><b>cContactWithDateTest</b><br>Test class: ContactTest.CreateContactswithOrgNameAndSuppDateTest<br/>
+<a href="#Output-1930859032" onClick='toggleBox("Output-1930859032", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1930859032" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1930859032">
+cContactWithDateTestTest Execution started<br/>
+cContactWithDateTestTest Execution success<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>ContactTest.CreateContactswithOrgNameAndSuppDateTest@1807e3f6</td></tr>
+<tr>
+<td title='ContactTest.CreateContactswithOrgNameAndSuppDateTest.contactTest()'><b>contactTest</b><br>Test class: ContactTest.CreateContactswithOrgNameAndSuppDateTest<br/>
+<a href="#Output-534872654" onClick='toggleBox("Output-534872654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-534872654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-534872654">
+contactTestTest Execution started<br/>
+contactTestTest Execution success<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>ContactTest.CreateContactswithOrgNameAndSuppDateTest@1807e3f6</td></tr>
 </table><p>
 </body>
 </html>

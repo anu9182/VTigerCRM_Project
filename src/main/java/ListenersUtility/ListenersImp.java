@@ -83,7 +83,6 @@ public class ListenersImp implements ISuiteListener, ITestListener {
 	public void onFinish(ISuite suite) {
 		Reporter.log("Report Backup", true);
 		report.flush();
-        UtilitiesClassObject.getTest().log(Status.INFO, "Test Execution Finished");
-
+        
 	}
 }
