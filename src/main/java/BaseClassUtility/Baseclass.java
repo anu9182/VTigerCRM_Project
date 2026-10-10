@@ -43,16 +43,16 @@ public class Baseclass {
 		Reporter.log("Configuration of Parallel Execution", true);
 	}
 
-    @Parameters("browser")
+    //c @Parameters("browser")
 	@BeforeClass(alwaysRun = true)
-	public void launchTheBrowser(String browser) throws IOException {
-
-		//String browser = putil.fetchDataFromPropFile("browser");
-        if (browser.equals("chrome"))
+	public void launchTheBrowser() throws IOException {
+        //use of this step execute maven commands and eclepse also
+        String browser = System.getProperty("browser",putil.fetchDataFromPropFile("browser"));
+       if (browser.equals("chrome"))
 			driver = new ChromeDriver();
-         else if (browser.equals("edge"))
+        else if (browser.equals("edge"))
 			driver = new EdgeDriver();
-		 else if (browser.equals("fireFox"))
+        else if (browser.equals("Firefox"))
 			driver = new FirefoxDriver();
              else
              driver = new ChromeDriver();
@@ -64,12 +64,11 @@ public class Baseclass {
 
 	@BeforeMethod(alwaysRun = true)
 	public void login() throws IOException {
-		// doubt
-		// String url = System.getProperty("url", putil.fetchDataFromPropFile("url"));
-		String url = putil.fetchDataFromPropFile("url");
-		String username = putil.fetchDataFromPropFile("username");
-		String password = putil.fetchDataFromPropFile("password");
-		String timeouts = putil.fetchDataFromPropFile("timeouts");
+		
+		String url = System.getProperty("url", putil.fetchDataFromPropFile("url"));
+		String username = System.getProperty("username",putil.fetchDataFromPropFile("username"));
+		String password = System.getProperty("password",putil.fetchDataFromPropFile("password"));
+		String timeouts = System.getProperty("timeouts",putil.fetchDataFromPropFile("timeouts"));
 
 		// maximize the window
 		wutil.maximizeTheWindow(driver);
